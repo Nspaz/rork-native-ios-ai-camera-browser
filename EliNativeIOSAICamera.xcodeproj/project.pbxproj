@@ -12,27 +12,27 @@
 			containerPortal = 105FC5722E9EAD3100EA8BCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 105FC5792E9EAD3100EA8BCF;
-			remoteInfo = NativeIOSAICameraBrowser;
+			remoteInfo = EliNativeIOSAICamera;
 		};
 		105FC5942E9EAD3200EA8BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 105FC5722E9EAD3100EA8BCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 105FC5792E9EAD3100EA8BCF;
-			remoteInfo = NativeIOSAICameraBrowser;
+			remoteInfo = EliNativeIOSAICamera;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		105FC57A2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeIOSAICameraBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		105FC5892E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeIOSAICameraBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		105FC5932E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeIOSAICameraBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105FC57A2E9EAD3100EA8BCF /* EliNativeIOSAICamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliNativeIOSAICamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		105FC5892E9EAD3200EA8BCF /* EliNativeIOSAICameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliNativeIOSAICameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105FC5932E9EAD3200EA8BCF /* EliNativeIOSAICameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliNativeIOSAICameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		105FC57C2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */ = {
+		105FC57C2E9EAD3100EA8BCF /* EliNativeIOSAICamera */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeIOSAICameraBrowser;
+			path = EliNativeIOSAICamera;
 			sourceTree = "<group>";
 		};
 		105FC58C2E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */ = {
@@ -75,7 +75,7 @@
 		105FC5712E9EAD3100EA8BCF = {
 			isa = PBXGroup;
 			children = (
-				105FC57C2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */,
+				105FC57C2E9EAD3100EA8BCF /* EliNativeIOSAICamera */,
 				105FC58C2E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */,
 				105FC5962E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests */,
 				105FC57B2E9EAD3100EA8BCF /* Products */,
@@ -85,9 +85,9 @@
 		105FC57B2E9EAD3100EA8BCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				105FC57A2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser.app */,
-				105FC5892E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests.xctest */,
-				105FC5932E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests.xctest */,
+				105FC57A2E9EAD3100EA8BCF /* EliNativeIOSAICamera.app */,
+				105FC5892E9EAD3200EA8BCF /* EliNativeIOSAICameraTests.xctest */,
+				105FC5932E9EAD3200EA8BCF /* EliNativeIOSAICameraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		105FC5792E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */ = {
+		105FC5792E9EAD3100EA8BCF /* EliNativeIOSAICamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 105FC59D2E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowser" */;
+			buildConfigurationList = 105FC59D2E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */;
 			buildPhases = (
 				105FC5762E9EAD3100EA8BCF /* Sources */,
 				105FC5772E9EAD3100EA8BCF /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				105FC57C2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */,
+				105FC57C2E9EAD3100EA8BCF /* EliNativeIOSAICamera */,
 			);
-			name = NativeIOSAICameraBrowser;
+			name = EliNativeIOSAICamera;
 			packageProductDependencies = (
 			);
-			productName = NativeIOSAICameraBrowser;
-			productReference = 105FC57A2E9EAD3100EA8BCF /* NativeIOSAICameraBrowser.app */;
+			productName = EliNativeIOSAICamera;
+			productReference = 105FC57A2E9EAD3100EA8BCF /* EliNativeIOSAICamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		105FC5882E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */ = {
+		105FC5882E9EAD3200EA8BCF /* EliNativeIOSAICamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 105FC5A02E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowserTests" */;
+			buildConfigurationList = 105FC5A02E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */;
 			buildPhases = (
 				105FC5852E9EAD3200EA8BCF /* Sources */,
 				105FC5862E9EAD3200EA8BCF /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				105FC58C2E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */,
 			);
-			name = NativeIOSAICameraBrowserTests;
+			name = EliNativeIOSAICamera;
 			packageProductDependencies = (
 			);
-			productName = NativeIOSAICameraBrowserTests;
-			productReference = 105FC5892E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests.xctest */;
+			productName = EliNativeIOSAICamera;
+			productReference = 105FC5892E9EAD3200EA8BCF /* EliNativeIOSAICameraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		105FC5922E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests */ = {
+		105FC5922E9EAD3200EA8BCF /* EliNativeIOSAICamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 105FC5A32E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowserUITests" */;
+			buildConfigurationList = 105FC5A32E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */;
 			buildPhases = (
 				105FC58F2E9EAD3200EA8BCF /* Sources */,
 				105FC5902E9EAD3200EA8BCF /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				105FC5962E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests */,
 			);
-			name = NativeIOSAICameraBrowserUITests;
+			name = EliNativeIOSAICamera;
 			packageProductDependencies = (
 			);
-			productName = NativeIOSAICameraBrowserUITests;
-			productReference = 105FC5932E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests.xctest */;
+			productName = EliNativeIOSAICamera;
+			productReference = 105FC5932E9EAD3200EA8BCF /* EliNativeIOSAICameraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 105FC5752E9EAD3100EA8BCF /* Build configuration list for PBXProject "NativeIOSAICameraBrowser" */;
+			buildConfigurationList = 105FC5752E9EAD3100EA8BCF /* Build configuration list for PBXProject "EliNativeIOSAICamera" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				105FC5792E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */,
-				105FC5882E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */,
-				105FC5922E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests */,
+				105FC5792E9EAD3100EA8BCF /* EliNativeIOSAICamera */,
+				105FC5882E9EAD3200EA8BCF /* EliNativeIOSAICamera */,
+				105FC5922E9EAD3200EA8BCF /* EliNativeIOSAICamera */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		105FC58B2E9EAD3200EA8BCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 105FC5792E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */;
+			target = 105FC5792E9EAD3100EA8BCF /* EliNativeIOSAICamera */;
 			targetProxy = 105FC58A2E9EAD3200EA8BCF /* PBXContainerItemProxy */;
 		};
 		105FC5952E9EAD3200EA8BCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 105FC5792E9EAD3100EA8BCF /* NativeIOSAICameraBrowser */;
+			target = 105FC5792E9EAD3100EA8BCF /* EliNativeIOSAICamera */;
 			targetProxy = 105FC5942E9EAD3200EA8BCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +400,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NativeIOSAICameraBrowser-Info.plist;
+				INFOPLIST_FILE = "NativeIOSAICameraBrowser-Info.plist";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed for AI video transformation";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed for audio in web calls";
@@ -414,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.rork.native-ios-ai-camera-browser;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rork.native-ios-ai-camera-browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -436,7 +436,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NativeIOSAICameraBrowser-Info.plist;
+				INFOPLIST_FILE = "NativeIOSAICameraBrowser-Info.plist";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed for AI video transformation";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed for audio in web calls";
@@ -450,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.rork.native-ios-ai-camera-browser;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.rork.native-ios-ai-camera-browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		105FC5752E9EAD3100EA8BCF /* Build configuration list for PBXProject "NativeIOSAICameraBrowser" */ = {
+		105FC5752E9EAD3100EA8BCF /* Build configuration list for PBXProject "EliNativeIOSAICamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				105FC59B2E9EAD3200EA8BCF /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		105FC59D2E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowser" */ = {
+		105FC59D2E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				105FC59E2E9EAD3200EA8BCF /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		105FC5A02E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowserTests" */ = {
+		105FC5A02E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				105FC5A12E9EAD3200EA8BCF /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		105FC5A32E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "NativeIOSAICameraBrowserUITests" */ = {
+		105FC5A32E9EAD3200EA8BCF /* Build configuration list for PBXNativeTarget "EliNativeIOSAICamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				105FC5A42E9EAD3200EA8BCF /* Debug */,
