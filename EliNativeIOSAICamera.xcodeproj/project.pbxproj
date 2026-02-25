@@ -35,14 +35,14 @@
 			path = EliNativeIOSAICamera;
 			sourceTree = "<group>";
 		};
-		105FC58C2E9EAD3200EA8BCF /* NativeIOSAICameraBrowserTests */ = {
+		105FC58C2E9EAD3200EA8BCF /* EliNativeIOSAICameraTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeIOSAICameraBrowserTests;
+			path = EliNativeIOSAICameraTests;
 			sourceTree = "<group>";
 		};
-		105FC5962E9EAD3200EA8BCF /* NativeIOSAICameraBrowserUITests */ = {
+		105FC5962E9EAD3200EA8BCF /* EliNativeIOSAICameraUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeIOSAICameraBrowserUITests;
+			path = EliNativeIOSAICameraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -487,7 +487,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeIOSAICameraBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeIOSAICameraBrowser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EliNativeIOSAICamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EliNativeIOSAICamera";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeIOSAICameraBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeIOSAICameraBrowser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EliNativeIOSAICamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EliNativeIOSAICamera";
 			};
 			name = Release;
 		};
@@ -531,7 +531,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeIOSAICameraBrowser;
+				TEST_TARGET_NAME = EliNativeIOSAICamera;
 			};
 			name = Debug;
 		};
@@ -552,7 +552,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeIOSAICameraBrowser;
+				TEST_TARGET_NAME = EliNativeIOSAICamera;
 			};
 			name = Release;
 		};
