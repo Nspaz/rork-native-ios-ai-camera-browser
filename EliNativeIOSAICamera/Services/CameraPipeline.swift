@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 @Observable
 class CameraPipeline {
@@ -6,6 +7,7 @@ class CameraPipeline {
     var serverURL: String = ""
     var currentFPS: Double = 0
     var currentLatency: Double = 0
+    var latestPreviewImage: UIImage?
     var onFrameForWebView: ((Data) -> Void)?
 
     private let capture = CameraCaptureService()
@@ -54,6 +56,7 @@ class CameraPipeline {
                         self.frameCount = 0
                         self.lastFPSUpdate = now
                     }
+                    self.latestPreviewImage = UIImage(data: processed)
                     self.onFrameForWebView?(processed)
                 }
             }
